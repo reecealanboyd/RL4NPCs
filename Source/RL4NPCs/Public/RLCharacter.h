@@ -14,11 +14,39 @@ public:
 	// Sets default values for this character's properties
 	ARLCharacter();
 
-	// Make a health property
+	// The current health of the character
 	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "RL Character")
 		float health = 100;
 
-	// Make an isDead property
+	// Does the character have the flag?
+	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "RL Character")
+		bool hasFlag = false;
+
+	// Does the character hear noise?
+	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "RL Character")
+		bool hearsNoise = false;
+
+	// Does the character see an enemy?
+	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "RL Character")
+		bool seeEnemy = false;
+
+	// Is the character bumping into anything?
+	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "RL Character")
+		bool bumping = false;
+
+	// Is the character taking damage?
+	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "RL Character")
+		bool takingDamage = false;
+
+	// Is the character moving?
+	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "RL Character")
+		bool moving = false;
+
+	// Distance to the enemy
+	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "RL Character")
+		float enemyDistance = 0.0;
+
+	// Is the character dead?
 	UPROPERTY(BlueprintReadOnly, VisibleAnywhere, Category = "RL Character") 
 		bool isDead = false;
 
