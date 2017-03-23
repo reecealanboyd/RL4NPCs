@@ -48,7 +48,6 @@ void ARLCharacter::PostEditChangeProperty(FPropertyChangedEvent & PropertyChange
 void ARLCharacter::BeginPlay()
 {
 	Super::BeginPlay();
-	
 }
 
 // Called every frame
