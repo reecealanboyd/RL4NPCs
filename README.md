@@ -9,16 +9,16 @@
 * ~~GOTO Pickup~~
 * ~~GOTO Home~~
 * ~~Shoot Weapon~~
-* Avoid Enemy
+* --Avoid Enemy--
 * Drop Flag
 
 #### States to implement (Strikethrough indicates complete or knows how to complete):
 * ~~Taking Hits~~
-* Hearing Noise
+* --Hearing Noise--
 * Bumping
 * ~~See Enemy~~
 * ~~Enemy In Range~~
-* Critical Health
+* --Critical Health--
 * Have Flag
 * ~~See Pickup~~
 * ~~Moving~~
